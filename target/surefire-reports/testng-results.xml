@@ -1,29 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="2872" started-at="2023-03-06T22:37:21 BRT" finished-at="2023-03-06T22:37:24 BRT">
+  <suite name="Command line suite" duration-ms="6107" started-at="2023-03-09T12:17:30 BRT" finished-at="2023-03-09T12:17:37 BRT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="2872" started-at="2023-03-06T22:37:21 BRT" finished-at="2023-03-06T22:37:24 BRT">
+    <test name="Command line test" duration-ms="6107" started-at="2023-03-09T12:17:30 BRT" finished-at="2023-03-09T12:17:37 BRT">
       <class name="Test01_GET">
-        <test-method status="PASS" signature="test_01()[pri:0, instance:Test01_GET@343f4d3d]" name="test_01" duration-ms="148" started-at="2023-03-06T22:37:24 BRT" finished-at="2023-03-06T22:37:24 BRT">
+        <test-method status="PASS" signature="test_01()[pri:0, instance:Test01_GET@464bee09]" name="test_01" duration-ms="447" started-at="2023-03-09T12:17:36 BRT" finished-at="2023-03-09T12:17:36 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01 -->
-        <test-method status="PASS" signature="test_02()[pri:0, instance:Test01_GET@343f4d3d]" name="test_02" duration-ms="171" started-at="2023-03-06T22:37:24 BRT" finished-at="2023-03-06T22:37:24 BRT">
+        <test-method status="PASS" signature="test_02()[pri:0, instance:Test01_GET@464bee09]" name="test_02" duration-ms="468" started-at="2023-03-09T12:17:36 BRT" finished-at="2023-03-09T12:17:37 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_02 -->
       </class> <!-- Test01_GET -->
       <class name="Tests_GET">
-        <test-method status="PASS" signature="test_03()[pri:0, instance:Tests_GET@57baeedf]" name="test_03" duration-ms="2516" started-at="2023-03-06T22:37:22 BRT" finished-at="2023-03-06T22:37:24 BRT">
+        <test-method status="PASS" signature="test_03()[pri:0, instance:Tests_GET@6eebc39e]" name="test_03" duration-ms="1019" started-at="2023-03-09T12:17:35 BRT" finished-at="2023-03-09T12:17:36 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_03 -->
       </class> <!-- Tests_GET -->
+      <class name="Test_Put">
+        <test-method status="PASS" signature="test_2_put()[pri:0, instance:Test_Put@4dfa3a9d]" name="test_2_put" duration-ms="712" started-at="2023-03-09T12:17:33 BRT" finished-at="2023-03-09T12:17:33 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2_put -->
+        <test-method status="PASS" signature="test_3_patch()[pri:0, instance:Test_Put@4dfa3a9d]" name="test_3_patch" duration-ms="686" started-at="2023-03-09T12:17:33 BRT" finished-at="2023-03-09T12:17:34 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3_patch -->
+        <test-method status="PASS" signature="test_4_delete()[pri:0, instance:Test_Put@4dfa3a9d]" name="test_4_delete" duration-ms="712" started-at="2023-03-09T12:17:34 BRT" finished-at="2023-03-09T12:17:35 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4_delete -->
+      </class> <!-- Test_Put -->
       <class name="Tests_POST">
-        <test-method status="PASS" signature="test_1_post()[pri:0, instance:Tests_POST@42e26948]" name="test_1_post" duration-ms="4" started-at="2023-03-06T22:37:22 BRT" finished-at="2023-03-06T22:37:22 BRT">
+        <test-method status="PASS" signature="test_1_post()[pri:0, instance:Tests_POST@146ba0ac]" name="test_1_post" duration-ms="2030" started-at="2023-03-09T12:17:31 BRT" finished-at="2023-03-09T12:17:33 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_1_post -->

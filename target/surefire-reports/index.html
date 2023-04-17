@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,6 +118,21 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="Tests_POST" hash-for-method="test_1_post">test_1_post</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="Test_Put" hash-for-method="test_2_put">test_2_put</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="Test_Put" hash-for-method="test_3_patch">test_3_patch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="Test_Put" hash-for-method="test_4_delete">test_4_delete</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Command_line_suite -->
@@ -150,6 +165,35 @@
                   <a name="test_02">
                   </a> <!-- test_02 -->
                   <span class="method-name">test_02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test_Put</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_2_put">
+                  </a> <!-- test_2_put -->
+                  <span class="method-name">test_2_put</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_3_patch">
+                  </a> <!-- test_3_patch -->
+                  <span class="method-name">test_3_patch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_4_delete">
+                  </a> <!-- test_4_delete -->
+                  <span class="method-name">test_4_delete</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,6 +240,7 @@
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Tests_POST&quot;/&gt;
+      &lt;class name=&quot;Test_Put&quot;/&gt;
       &lt;class name=&quot;Tests_GET&quot;/&gt;
       &lt;class name=&quot;Test01_GET&quot;/&gt;
     &lt;/classes&gt;
@@ -211,7 +256,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (3 classes)</span>
+                <span class="test-name">Command line test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,28 +282,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_03')
-data.setCell(0, 2, 'Tests_GET')
-data.setCell(0, 3, 2516);
+data.setCell(0, 1, 'test_1_post')
+data.setCell(0, 2, 'Tests_POST')
+data.setCell(0, 3, 2030);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_02')
-data.setCell(1, 2, 'Test01_GET')
-data.setCell(1, 3, 171);
+data.setCell(1, 1, 'test_03')
+data.setCell(1, 2, 'Tests_GET')
+data.setCell(1, 3, 1019);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_01')
-data.setCell(2, 2, 'Test01_GET')
-data.setCell(2, 3, 148);
+data.setCell(2, 1, 'test_4_delete')
+data.setCell(2, 2, 'Test_Put')
+data.setCell(2, 3, 712);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_1_post')
-data.setCell(3, 2, 'Tests_POST')
-data.setCell(3, 3, 4);
+data.setCell(3, 1, 'test_2_put')
+data.setCell(3, 2, 'Test_Put')
+data.setCell(3, 3, 712);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_3_patch')
+data.setCell(4, 2, 'Test_Put')
+data.setCell(4, 3, 686);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_02')
+data.setCell(5, 2, 'Test01_GET')
+data.setCell(5, 3, 468);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_01')
+data.setCell(6, 2, 'Test01_GET')
+data.setCell(6, 3, 447);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -291,21 +348,36 @@ return data;
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">Test_Put</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_2_put</span>
+                <span class="method-start">2034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_3_patch</span>
+                <span class="method-start">2747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_4_delete</span>
+                <span class="method-start">3433 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">Tests_GET</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test_03</span>
-                <span class="method-start">8 ms</span>
+                <span class="method-start">4146 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test01_GET</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test_01</span>
-                <span class="method-start">2525 ms</span>
+                <span class="method-start">5166 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_02</span>
-                <span class="method-start">2674 ms</span>
+                <span class="method-start">5613 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
